@@ -47,5 +47,49 @@
     - 子列表2
 2. 嵌套列表2
 ***
+>简单的区块
+>像这样
+>>当然
+>>区块也可以嵌套
+***
+关于代码 `printf()`，可以用反引号
+***
+```c++
+int main(){
+    for(int i=0;i<100;++i>){
+        //使用三个反引号```
+    }
+}
+```
+***
+超链接的使用
+[百度](www.baidu.com)
+or
+<www.baidu.com>
+***
+![菜鸟](http://static.runoob.com/images/runoob-logo.png)
+<img src="http://static.runoob.com/images/runoob-logo.png" title="北原美月">
+这是一个[图片]
 
+[图片]: http://static.runoob.com/images/runoob-logo.png
 
+***
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+***
+支持部分html标签
+***
+使用转义字符表示特殊符号\*, \\
+***
+公式
+$$ f(x)=x+b $$
+***
+高级的作图技巧,流程图，时序图，甘特图等
+<https://www.runoob.com/markdown/md-advance.html>
